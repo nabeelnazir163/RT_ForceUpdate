@@ -43,7 +43,7 @@ There is an option to customise the color and fonts as well.
 
 ```
 
-![Alt text](https://drive.google.com/file/d/1wuF3KBOr_3ry0CjcYPA9qZac5o0_yXLs/view?usp=sharing "Screenshot")
+![Alt text](https://fv9-3.failiem.lv/thumb_show.php?i=f3acdh4my&view "Screenshot")
 
 ## Author
 
