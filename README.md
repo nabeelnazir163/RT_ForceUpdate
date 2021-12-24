@@ -19,6 +19,19 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod 'RT_ForceUpdate'
 ```
+## Usage
+
+```
+  ForceUpdateManager.shared.checkIfAppVersionIsCompatible(with: "YOUR_SLUG")
+  ForceUpdateManager.shared.contentTextColor = .gray
+  ForceUpdateManager.shared.contentViewBGColor = UIColor.white
+  ForceUpdateManager.shared.doneButtonBGColor = UIColor.black
+  ForceUpdateManager.shared.doneButtonTextColor = UIColor.white
+  ForceUpdateManager.shared.contentTextColor = UIColor.black
+  ForceUpdateManager.shared.placeHolderImageTintColor = UIColor.black
+  ForceUpdateManager.shared.fontFamily = "YOUR_FONT_NAME"
+  ForceUpdateManager.shared.alternateURLToLoad = "YOUR_DESIRED_URL"
+```
 
 ## Author
 
