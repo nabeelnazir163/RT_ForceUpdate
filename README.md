@@ -43,6 +43,8 @@ There is an option to customise the color and fonts as well.
 
 ```
 
+![Alt text](https://drive.google.com/file/d/1wuF3KBOr_3ry0CjcYPA9qZac5o0_yXLs/view?usp=sharing "Screenshot")
+
 ## Author
 
 Nabeel, nabeel@renesistech.com
