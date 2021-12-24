@@ -143,32 +143,8 @@
 				4271D61C27758620005029A9 /* ForceUpdateViewController.swift */,
 				4271D61927758620005029A9 /* ForceUpdateManager.swift */,
 				4271D61B27758620005029A9 /* ForceUpdateViewController.xib */,
-				4271D62327758636005029A9 /* Utils */,
-				4271D61827758620005029A9 /* Manager */,
-				4271D61A27758620005029A9 /* View Controller */,
 			);
 			path = Source;
-			sourceTree = "<group>";
-		};
-		4271D61827758620005029A9 /* Manager */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Manager;
-			sourceTree = "<group>";
-		};
-		4271D61A27758620005029A9 /* View Controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "View Controller";
-			sourceTree = "<group>";
-		};
-		4271D62327758636005029A9 /* Utils */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Utils;
 			sourceTree = "<group>";
 		};
 		46334DEFFB8F3F1E2E641BB135664A46 /* Pods-RT_ForceUpdate_Example */ = {
@@ -362,6 +338,7 @@
 					9EE3AFA5025D34B291E9C1AADFAA0FF8 = {
 						DevelopmentTeam = UVDDXWFW8V;
 						LastSwiftMigration = 1220;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -530,6 +507,7 @@
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = UVDDXWFW8V;
@@ -545,6 +523,7 @@
 				MODULEMAP_FILE = "Target Support Files/RT_ForceUpdate/RT_ForceUpdate.modulemap";
 				PRODUCT_MODULE_NAME = RT_ForceUpdate;
 				PRODUCT_NAME = RT_ForceUpdate;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = NO;
@@ -663,6 +642,7 @@
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = UVDDXWFW8V;
@@ -678,6 +658,7 @@
 				MODULEMAP_FILE = "Target Support Files/RT_ForceUpdate/RT_ForceUpdate.modulemap";
 				PRODUCT_MODULE_NAME = RT_ForceUpdate;
 				PRODUCT_NAME = RT_ForceUpdate;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = NO;
