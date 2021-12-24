@@ -139,6 +139,10 @@
 		4271D61727758575005029A9 /* Source */ = {
 			isa = PBXGroup;
 			children = (
+				4271D62427758636005029A9 /* Constants.swift */,
+				4271D61C27758620005029A9 /* ForceUpdateViewController.swift */,
+				4271D61927758620005029A9 /* ForceUpdateManager.swift */,
+				4271D61B27758620005029A9 /* ForceUpdateViewController.xib */,
 				4271D62327758636005029A9 /* Utils */,
 				4271D61827758620005029A9 /* Manager */,
 				4271D61A27758620005029A9 /* View Controller */,
@@ -149,7 +153,6 @@
 		4271D61827758620005029A9 /* Manager */ = {
 			isa = PBXGroup;
 			children = (
-				4271D61927758620005029A9 /* ForceUpdateManager.swift */,
 			);
 			path = Manager;
 			sourceTree = "<group>";
@@ -157,8 +160,6 @@
 		4271D61A27758620005029A9 /* View Controller */ = {
 			isa = PBXGroup;
 			children = (
-				4271D61B27758620005029A9 /* ForceUpdateViewController.xib */,
-				4271D61C27758620005029A9 /* ForceUpdateViewController.swift */,
 			);
 			path = "View Controller";
 			sourceTree = "<group>";
@@ -166,7 +167,6 @@
 		4271D62327758636005029A9 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				4271D62427758636005029A9 /* Constants.swift */,
 			);
 			path = Utils;
 			sourceTree = "<group>";
@@ -360,6 +360,7 @@
 				LastUpgradeCheck = 1220;
 				TargetAttributes = {
 					9EE3AFA5025D34B291E9C1AADFAA0FF8 = {
+						DevelopmentTeam = UVDDXWFW8V;
 						LastSwiftMigration = 1220;
 					};
 				};
@@ -525,11 +526,13 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 87E88780B4E4296C743EB9B72729B0A9 /* RT_ForceUpdate.debug.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = UVDDXWFW8V;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -538,6 +541,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MARKETING_VERSION = 0.1.0;
 				MODULEMAP_FILE = "Target Support Files/RT_ForceUpdate/RT_ForceUpdate.modulemap";
 				PRODUCT_MODULE_NAME = RT_ForceUpdate;
 				PRODUCT_NAME = RT_ForceUpdate;
@@ -655,11 +659,13 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8A5C01C6176CED7D42EA33D832A8B246 /* RT_ForceUpdate.release.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = UVDDXWFW8V;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -668,6 +674,7 @@
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MARKETING_VERSION = 0.1.0;
 				MODULEMAP_FILE = "Target Support Files/RT_ForceUpdate/RT_ForceUpdate.modulemap";
 				PRODUCT_MODULE_NAME = RT_ForceUpdate;
 				PRODUCT_NAME = RT_ForceUpdate;

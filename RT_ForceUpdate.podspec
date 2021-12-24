@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'RT_ForceUpdate/Classes/**/*'
+  s.source_files = 'RT_ForceUpdate/**/*'
   
   # s.resource_bundles = {
   #   'RT_ForceUpdate' => ['RT_ForceUpdate/Assets/*.png']
