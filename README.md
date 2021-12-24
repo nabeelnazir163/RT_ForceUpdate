@@ -47,7 +47,7 @@ There is an option to customise the color and fonts as well.
 
 ## Author
 
-Nabeel, nabeel@renesistech.com
+Nabeel, nabeelnazir163@gmail.com
 
 ## License
 
