@@ -33,11 +33,11 @@ There is an option to customise the color and fonts as well.
 
 ``` 
   ForceUpdateManager.shared.contentTextColor = .gray
-  ForceUpdateManager.shared.contentViewBGColor = UIColor.white
-  ForceUpdateManager.shared.doneButtonBGColor = UIColor.black
-  ForceUpdateManager.shared.doneButtonTextColor = UIColor.white
-  ForceUpdateManager.shared.contentTextColor = UIColor.black
-  ForceUpdateManager.shared.placeHolderImageTintColor = UIColor.black
+  ForceUpdateManager.shared.contentViewBGColor = .white
+  ForceUpdateManager.shared.doneButtonBGColor = .black
+  ForceUpdateManager.shared.doneButtonTextColor = .white
+  ForceUpdateManager.shared.contentTextColor = .black
+  ForceUpdateManager.shared.placeHolderImageTintColor = .black
   ForceUpdateManager.shared.fontFamily = "YOUR_FONT_NAME"
   ForceUpdateManager.shared.alternateURLToLoad = "YOUR_DESIRED_URL"
 
