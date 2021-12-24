@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 'RT_ForceUpdate is specially made for one particular organization known as Renesis Tech pvt ltd. This is pod to show Force update in one line of code (if required). RT_ForceUpdate offer some customisation as well. It compares local app version and compares it renesis server and show dialog of local app version is lesser than remote version'
                        DESC
 
-  s.homepage         = 'https://github.com/nabeelnazir163/RT_ForceUpdate'
+  s.homepage         = 'https://github.com/nabeelnazir163/RT_ForceUpdate' 
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Nabeel' => 'nabeelnazir163@gmail.com' }
