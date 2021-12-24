@@ -15,7 +15,7 @@ public class ForceUpdateViewController: UIViewController {
     @IBOutlet weak var doneButton: UIButton!
 
     // MARK:- Constants and Variables
-    var appversionResponse: [String: Any]?
+    var appversionResponse: [String: Any]? 
     
     // MARK:- life Cycle Methods
     public override func viewDidLoad() {
