@@ -21,8 +21,17 @@ pod 'RT_ForceUpdate'
 ```
 ## Usage
 
+You can use check is your app needs to update in one line of code and if yes it shows a dialog
+
 ```
   ForceUpdateManager.shared.checkIfAppVersionIsCompatible(with: "YOUR_SLUG")
+```
+
+## Customisation
+
+There is an option to customise the color and fonts as well.
+
+``` 
   ForceUpdateManager.shared.contentTextColor = .gray
   ForceUpdateManager.shared.contentViewBGColor = UIColor.white
   ForceUpdateManager.shared.doneButtonBGColor = UIColor.black
@@ -31,6 +40,7 @@ pod 'RT_ForceUpdate'
   ForceUpdateManager.shared.placeHolderImageTintColor = UIColor.black
   ForceUpdateManager.shared.fontFamily = "YOUR_FONT_NAME"
   ForceUpdateManager.shared.alternateURLToLoad = "YOUR_DESIRED_URL"
+
 ```
 
 ## Author
