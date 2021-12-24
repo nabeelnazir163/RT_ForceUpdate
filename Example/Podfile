@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'RT_ForceUpdate_Example' do
+  pod 'RT_ForceUpdate', :path => '../'
+
+  target 'RT_ForceUpdate_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
