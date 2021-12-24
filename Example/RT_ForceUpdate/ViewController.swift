@@ -7,12 +7,14 @@
 //
 
 import UIKit
+import RT_ForceUpdate
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        ForceUpdateManager.shared.checkIfAppVersionIsCompatible(with: "com.eternityTest")
     }
 
     override func didReceiveMemoryWarning() {

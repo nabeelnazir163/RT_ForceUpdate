@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		12A3CF5775D0CB805CA6667C287F7CC6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		4271D644277588F6005029A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		4271D650277589AB005029A9 /* ForceUpdateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4271D61C27758620005029A9 /* ForceUpdateViewController.swift */; };
+		4271D657277589B5005029A9 /* ForceUpdateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4271D61927758620005029A9 /* ForceUpdateManager.swift */; };
+		4271D65B277589C0005029A9 /* ForceUpdateViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4271D61B27758620005029A9 /* ForceUpdateViewController.xib */; };
+		4271D668277589D2005029A9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4271D62427758636005029A9 /* Constants.swift */; };
 		47B1924411470F0B044A269A94513FAA /* Pods-RT_ForceUpdate_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FA37587C3E53ABBE065E16B47625CD87 /* Pods-RT_ForceUpdate_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		52EDF4A086DC9643C1D256D1C5C8028D /* RT_ForceUpdate-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B8D9C9F6B0712370A5227B807F7408AA /* RT_ForceUpdate-dummy.m */; };
 		7977E549F3E097C2ADD1C946097C0412 /* Pods-RT_ForceUpdate_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 92F5F7D34FBAF35612334804B39D5EBF /* Pods-RT_ForceUpdate_Example-dummy.m */; };
 		7A08FB5021842908F74CB911B21C7EDD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		8D9F5591D4AAC04305F8AA02BF614013 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		9BE554E6954B8CEC66B3BFD5A2306FB2 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = F77105350D16B06ADA008063FDDAF408 /* ReplaceMe.swift */; };
 		B22B2B1A2210B08C9461CD3CA6D8A1BE /* Pods-RT_ForceUpdate_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B3EEEE505C116C3C024C6BABD3E36AF /* Pods-RT_ForceUpdate_Tests-dummy.m */; };
 		D3AF3644BACFD2E1FA48C3A733D46811 /* Pods-RT_ForceUpdate_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 55213540DAAC6D4436CB67490F997ED7 /* Pods-RT_ForceUpdate_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FA6F45160681518F3AB9828711F0440A /* RT_ForceUpdate-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EBBDF1A96314AD63CCDE947518FDEBDE /* RT_ForceUpdate-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -37,17 +40,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		04440A87CD8F57663263C3B128C2E046 /* Pods_RT_ForceUpdate_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RT_ForceUpdate_Tests.framework; path = "Pods-RT_ForceUpdate_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		04440A87CD8F57663263C3B128C2E046 /* Pods_RT_ForceUpdate_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RT_ForceUpdate_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A24BB3F675706852964BC94952367FD /* RT_ForceUpdate-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RT_ForceUpdate-prefix.pch"; sourceTree = "<group>"; };
 		246CB3222F919C4E5127A59BA53E3508 /* Pods-RT_ForceUpdate_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RT_ForceUpdate_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		254900AD0C8FFEA5C92ECAB6B2F745C3 /* Pods-RT_ForceUpdate_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RT_ForceUpdate_Example-frameworks.sh"; sourceTree = "<group>"; };
 		276B52318E74D06360B3147C50DFE291 /* Pods-RT_ForceUpdate_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RT_ForceUpdate_Example-Info.plist"; sourceTree = "<group>"; };
 		28EC06FC02B054E3BAF3F634C885BD79 /* Pods-RT_ForceUpdate_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RT_ForceUpdate_Example.release.xcconfig"; sourceTree = "<group>"; };
 		2B3EEEE505C116C3C024C6BABD3E36AF /* Pods-RT_ForceUpdate_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RT_ForceUpdate_Tests-dummy.m"; sourceTree = "<group>"; };
-		3DF6AA46FC20997D2A6F769331A134E7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		3DF6AA46FC20997D2A6F769331A134E7 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		4271D61927758620005029A9 /* ForceUpdateManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForceUpdateManager.swift; sourceTree = "<group>"; };
+		4271D61B27758620005029A9 /* ForceUpdateViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ForceUpdateViewController.xib; sourceTree = "<group>"; };
+		4271D61C27758620005029A9 /* ForceUpdateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForceUpdateViewController.swift; sourceTree = "<group>"; };
+		4271D62427758636005029A9 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		55213540DAAC6D4436CB67490F997ED7 /* Pods-RT_ForceUpdate_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RT_ForceUpdate_Tests-umbrella.h"; sourceTree = "<group>"; };
-		5771664C5CBCB93120D0414D5AF55C0E /* RT_ForceUpdate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RT_ForceUpdate.framework; path = RT_ForceUpdate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5DAC0DB4D44BA03EACCF4D0916424EFC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		5771664C5CBCB93120D0414D5AF55C0E /* RT_ForceUpdate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RT_ForceUpdate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DAC0DB4D44BA03EACCF4D0916424EFC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		720A4AAABE822A27E0741337552B2002 /* Pods-RT_ForceUpdate_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RT_ForceUpdate_Example.modulemap"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		75FF772A71013DAF1AC618F76DEC5692 /* Pods-RT_ForceUpdate_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RT_ForceUpdate_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -55,9 +62,9 @@
 		87E88780B4E4296C743EB9B72729B0A9 /* RT_ForceUpdate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RT_ForceUpdate.debug.xcconfig; sourceTree = "<group>"; };
 		8947B554AECFD9B3B1B65CF3FDC1CCA1 /* Pods-RT_ForceUpdate_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RT_ForceUpdate_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		8A5C01C6176CED7D42EA33D832A8B246 /* RT_ForceUpdate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RT_ForceUpdate.release.xcconfig; sourceTree = "<group>"; };
-		8A8AFB340508096E987C0F5D34E98E07 /* Pods_RT_ForceUpdate_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RT_ForceUpdate_Example.framework; path = "Pods-RT_ForceUpdate_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A8AFB340508096E987C0F5D34E98E07 /* Pods_RT_ForceUpdate_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RT_ForceUpdate_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		92F5F7D34FBAF35612334804B39D5EBF /* Pods-RT_ForceUpdate_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RT_ForceUpdate_Example-dummy.m"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9FBFEBD9BB70D93AAD00E216DF855951 /* Pods-RT_ForceUpdate_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RT_ForceUpdate_Tests-Info.plist"; sourceTree = "<group>"; };
 		AC4778BE90CC6D1443A6D982AA0AD2F2 /* RT_ForceUpdate.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RT_ForceUpdate.modulemap; sourceTree = "<group>"; };
 		B5D7F9AFC19E386DD116B35E0F0BC43C /* Pods-RT_ForceUpdate_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RT_ForceUpdate_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -66,8 +73,7 @@
 		D8127EDF48AF3222EDADBD0E48F3FFE5 /* Pods-RT_ForceUpdate_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RT_ForceUpdate_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		E6062615F43EC84B52F2F35EE1F8DA42 /* Pods-RT_ForceUpdate_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RT_ForceUpdate_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		EBBDF1A96314AD63CCDE947518FDEBDE /* RT_ForceUpdate-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RT_ForceUpdate-umbrella.h"; sourceTree = "<group>"; };
-		F2CB019EC9015453BBFC4ED0A5DF3436 /* RT_ForceUpdate.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = RT_ForceUpdate.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		F77105350D16B06ADA008063FDDAF408 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = RT_ForceUpdate/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		F2CB019EC9015453BBFC4ED0A5DF3436 /* RT_ForceUpdate.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = RT_ForceUpdate.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		FA37587C3E53ABBE065E16B47625CD87 /* Pods-RT_ForceUpdate_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RT_ForceUpdate_Example-umbrella.h"; sourceTree = "<group>"; };
 		FFB66139C6CF0853A4F5D70050109EBD /* Pods-RT_ForceUpdate_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RT_ForceUpdate_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -77,7 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D9F5591D4AAC04305F8AA02BF614013 /* Foundation.framework in Frameworks */,
+				4271D644277588F6005029A9 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -122,12 +128,47 @@
 		27796EEA2EF68D29604147DD45E9E761 /* RT_ForceUpdate */ = {
 			isa = PBXGroup;
 			children = (
-				F77105350D16B06ADA008063FDDAF408 /* ReplaceMe.swift */,
+				4271D61727758575005029A9 /* Source */,
 				8AC9C37EE13B0AE17F23A66829DBB1F9 /* Pod */,
 				E3C262E2AE772495B2AD2EC782377316 /* Support Files */,
 			);
 			name = RT_ForceUpdate;
 			path = ../..;
+			sourceTree = "<group>";
+		};
+		4271D61727758575005029A9 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				4271D62327758636005029A9 /* Utils */,
+				4271D61827758620005029A9 /* Manager */,
+				4271D61A27758620005029A9 /* View Controller */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		4271D61827758620005029A9 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				4271D61927758620005029A9 /* ForceUpdateManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		4271D61A27758620005029A9 /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4271D61B27758620005029A9 /* ForceUpdateViewController.xib */,
+				4271D61C27758620005029A9 /* ForceUpdateViewController.swift */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		4271D62327758636005029A9 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				4271D62427758636005029A9 /* Constants.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 		46334DEFFB8F3F1E2E641BB135664A46 /* Pods-RT_ForceUpdate_Example */ = {
@@ -316,7 +357,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1100;
+				LastUpgradeCheck = 1220;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -357,6 +398,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4271D65B277589C0005029A9 /* ForceUpdateViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -375,8 +417,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9BE554E6954B8CEC66B3BFD5A2306FB2 /* ReplaceMe.swift in Sources */,
 				52EDF4A086DC9643C1D256D1C5C8028D /* RT_ForceUpdate-dummy.m in Sources */,
+				4271D650277589AB005029A9 /* ForceUpdateViewController.swift in Sources */,
+				4271D657277589B5005029A9 /* ForceUpdateManager.swift in Sources */,
+				4271D668277589D2005029A9 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -459,7 +503,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -487,16 +531,17 @@
 				GCC_PREFIX_HEADER = "Target Support Files/RT_ForceUpdate/RT_ForceUpdate-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/RT_ForceUpdate/RT_ForceUpdate-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/RT_ForceUpdate/RT_ForceUpdate.modulemap";
 				PRODUCT_MODULE_NAME = RT_ForceUpdate;
 				PRODUCT_NAME = RT_ForceUpdate;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -506,7 +551,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B5D7F9AFC19E386DD116B35E0F0BC43C /* Pods-RT_ForceUpdate_Example.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -517,7 +561,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-RT_ForceUpdate_Example/Pods-RT_ForceUpdate_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-RT_ForceUpdate_Example/Pods-RT_ForceUpdate_Example.modulemap";
@@ -528,7 +572,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = 1;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -549,7 +594,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-RT_ForceUpdate_Tests/Pods-RT_ForceUpdate_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-RT_ForceUpdate_Tests/Pods-RT_ForceUpdate_Tests.modulemap";
@@ -560,7 +605,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -582,7 +628,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-RT_ForceUpdate_Tests/Pods-RT_ForceUpdate_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-RT_ForceUpdate_Tests/Pods-RT_ForceUpdate_Tests.modulemap";
@@ -593,7 +639,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = 1;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -614,16 +661,17 @@
 				GCC_PREFIX_HEADER = "Target Support Files/RT_ForceUpdate/RT_ForceUpdate-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/RT_ForceUpdate/RT_ForceUpdate-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/RT_ForceUpdate/RT_ForceUpdate.modulemap";
 				PRODUCT_MODULE_NAME = RT_ForceUpdate;
 				PRODUCT_NAME = RT_ForceUpdate;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -634,7 +682,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 28EC06FC02B054E3BAF3F634C885BD79 /* Pods-RT_ForceUpdate_Example.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -645,7 +692,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-RT_ForceUpdate_Example/Pods-RT_ForceUpdate_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-RT_ForceUpdate_Example/Pods-RT_ForceUpdate_Example.modulemap";
@@ -656,7 +703,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = 1;
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -713,13 +761,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
