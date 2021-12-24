@@ -1,0 +1,6 @@
+framework module RT_ForceUpdate {
+  umbrella header "RT_ForceUpdate-umbrella.h"
+
+  export *
+  module * { export * }
+}

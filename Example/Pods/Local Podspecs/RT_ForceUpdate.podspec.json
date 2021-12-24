@@ -1,0 +1,22 @@
+{
+  "name": "RT_ForceUpdate",
+  "version": "0.1.0",
+  "summary": "A short description of RT_ForceUpdate.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Nabeel/RT_ForceUpdate",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Nabeel": "nabeel@renesistech.com"
+  },
+  "source": {
+    "git": "https://github.com/Nabeel/RT_ForceUpdate.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "RT_ForceUpdate/Classes/**/*"
+}

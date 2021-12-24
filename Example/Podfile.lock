@@ -1,0 +1,16 @@
+PODS:
+  - RT_ForceUpdate (0.1.0)
+
+DEPENDENCIES:
+  - RT_ForceUpdate (from `../`)
+
+EXTERNAL SOURCES:
+  RT_ForceUpdate:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RT_ForceUpdate: a700b05a17fae4a26c053c08ba47b99b66cd3fa6
+
+PODFILE CHECKSUM: 6eb49420e05ece8635417825a4bd1fa7fd2449b1
+
+COCOAPODS: 1.10.0
