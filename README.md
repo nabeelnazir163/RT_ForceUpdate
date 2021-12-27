@@ -21,7 +21,7 @@ pod 'RT_ForceUpdate'
 ```
 ## Usage
 
-You can use check is your app needs to update in one line of code and if yes it shows a dialog
+You can use this to check if your app needs to update? If yes it shows a dialog. All you can achieve by writing one line of code.
 
 ```
   ForceUpdateManager.shared.checkIfAppVersionIsCompatible(with: "YOUR_SLUG")
